@@ -1,0 +1,2073 @@
+
+
+Started GET "/" for ::1 at 2016-02-09 23:50:03 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 17ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-09 23:51:21 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.2ms)
+Completed 200 OK in 14ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-09 23:51:31 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-09 23:51:33 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-10 00:24:12 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 20ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-10 00:24:29 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-10 00:24:48 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-11 13:11:28 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.3ms)
+Completed 200 OK in 11ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info" for ::1 at 2016-02-11 13:11:38 +0800
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-11 13:11:38 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-11 15:07:47 +0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (63.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (132.1ms)
+
+
+Started GET "/" for ::1 at 2016-02-11 15:07:52 +0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.4) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.4) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.2ms)
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateOrders (20160211065437)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "phone" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160211065437"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-02-11 15:28:41 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 10ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:28:49 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1470ms (Views: 1468.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-11 15:28:51 +0800
+
+
+Started GET "/orders/new" for ::1 at 2016-02-11 15:29:01 +0800
+Processing by OrdersController#new as HTML
+  Rendered orders/_form.html.erb (27.4ms)
+  Rendered orders/new.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 54ms (Views: 50.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:29:04 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-02-11 15:29:58 +0800
+Processing by OrdersController#new as HTML
+  Rendered orders/_form.html.erb (2.4ms)
+  Rendered orders/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2016-02-11 15:30:21 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GRXY2Tq7hRaN4NCM2Q0zCo9GLjtGj5qQkSUisgsPmSaTXpQ7aMckbOR4KUPcej4krfawou/Favq4tWJ8bEujKA==", "order"=>{"name"=>"Anndo", "phone"=>"#250", "description"=>"Burger * 1\r\n"}, "commit"=>"Create Order"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "orders" ("name", "phone", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Anndo"], ["phone", "#250"], ["description", "Burger * 1\r\n"], ["created_at", "2016-02-11 07:30:21.032244"], ["updated_at", "2016-02-11 07:30:21.032244"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/orders/1" for ::1 at 2016-02-11 15:30:21 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 22.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:30:33 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-02-11 15:31:22 +0800
+Processing by OrdersController#new as HTML
+  Rendered orders/_form.html.erb (2.0ms)
+  Rendered orders/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2016-02-11 15:31:45 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G8S/TmICXaEDTxwG4JSi5rTe+ufajln4+d1Qf3iR1EaRj/OsMH7822rX5cnl46/Ilm5kfnPEqZLQTRCxH9XuSA==", "order"=>{"name"=>"May", "phone"=>"#299", "description"=>"Burger * 2\r\nCoffee * 1"}, "commit"=>"Create Order"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "orders" ("name", "phone", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "May"], ["phone", "#299"], ["description", "Burger * 2\r\nCoffee * 1"], ["created_at", "2016-02-11 07:31:45.353419"], ["updated_at", "2016-02-11 07:31:45.353419"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/2" for ::1 at 2016-02-11 15:31:45 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mOrder Load (0.1ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered orders/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:31:48 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2016-02-11 15:39:11 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-11 15:39:13 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-11 15:39:38 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-02-11 15:41:38 +0800
+Processing by OrdersController#new as HTML
+  Rendered orders/_form.html.erb (1.5ms)
+  Rendered orders/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:42:35 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1/edit" for ::1 at 2016-02-11 15:42:37 +0800
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/_form.html.erb (1.9ms)
+  Rendered orders/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:42:40 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders/1" for ::1 at 2016-02-11 15:42:42 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered orders/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 15:42:43 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-11 16:07:53 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-11 16:07:53 +0800
+
+
+Started GET "/" for ::1 at 2016-02-12 14:35:35 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserTable (20160212065926)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "phone" varchar, "position" varchar, "age" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160212065926"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddUserTable (20160212065926)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  DROP TABLE "users"
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?[0m  [["version", "20160212065926"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserTable (20160212065926)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "phone" varchar, "position" varchar, "age" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160212065926"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/orders" for ::1 at 2016-02-12 15:55:38 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 191ms (Views: 182.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 15:55:39 +0800
+
+
+Started GET "/users" for ::1 at 2016-02-12 15:55:50 +0800
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Anndo/take_your_order/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.4) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (74.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (143.4ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-12 15:56:35 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 15:57:02 +0800
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Anndo/take_your_order/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.4) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.8ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2016-02-12 16:00:59 +0800
+Processing by Rails::InfoController#routes as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-12 16:01:13 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:01:17 +0800
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Anndo/take_your_order/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.4) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (97.2ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:02:01 +0800
+
+LoadError (Unable to autoload constant UsersController, expected /Users/Anndo/take_your_order/app/controllers/users_controller.rb to define it):
+  activesupport (4.2.4) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.4) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.4) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.9ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:02:51 +0800
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template users/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Anndo/take_your_order/app/views"
+):
+  actionview (4.2.4) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.4) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.4) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.4) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.4) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.4) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.4) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (55.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (107.1ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:03:47 +0800
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template users/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Anndo/take_your_order/app/views"
+):
+  actionview (4.2.4) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.4) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.4) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.4) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.4) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.4) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.4) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.4) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.4) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.4) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.4) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.4) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.4) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.4) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.4) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.4) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.4) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.4) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.4) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.4) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.4) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.4) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.4) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.4) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.4) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.4) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (58.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.1ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:06:14 +0800
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 16:06:14 +0800
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:10:13 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 16:10:13 +0800
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:10:52 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 16:10:53 +0800
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "phone", "position", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "Bob"], ["phone", "#750"], ["position", "Assistant"], ["age", 30], ["created_at", "2016-02-12 08:14:22.143132"], ["updated_at", "2016-02-12 08:14:22.143132"]]
+  [1m[36m (2.1ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/users" for ::1 at 2016-02-12 16:25:33 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 199ms (Views: 190.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 16:25:33 +0800
+
+
+Started GET "/orders" for ::1 at 2016-02-12 16:31:28 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT 1[0m  [["name", "Bob"]]
+  [1m[36mUser Load (2.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+
+
+Started GET "/orders" for ::1 at 2016-02-12 21:20:25 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.3ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 219ms (Views: 205.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-02-12 21:20:27 +0800
+Processing by OrdersController#new as HTML
+  Rendered orders/_form.html.erb (22.5ms)
+  Rendered orders/new.html.erb within layouts/application (28.7ms)
+Completed 200 OK in 45ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/orders" for ::1 at 2016-02-12 21:20:54 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aO5KYhEmylih5hHfdcDccf75G1xm8yG+V1UUtOOtO2PipQaAQ1prIsh+6BBwt9Ff3EmFxc+50dR+xVR6hOkBbQ==", "order"=>{"name"=>"Bob", "phone"=>"#750", "description"=>"Black Tea * 1"}, "commit"=>"Create Order"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "orders" ("name", "phone", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Bob"], ["phone", "#750"], ["description", "Black Tea * 1"], ["created_at", "2016-02-12 13:20:54.294265"], ["updated_at", "2016-02-12 13:20:54.294265"]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 7ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/orders/3" for ::1 at 2016-02-12 21:20:54 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered orders/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 30.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-12 21:20:56 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToOrdersTable (20160212132417)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE "orders" ADD "user_id" integer[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160212132417"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to AddUserIdToOrdersTable (20160212132417)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "aorders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "phone" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "user_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "orders"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "aorders" ("id","name","phone","description","created_at","updated_at","user_id") VALUES (1, 'Anndo', '#250', 'Burger * 1
+', '2016-02-11 07:30:21.032244', '2016-02-11 07:30:21.032244', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "aorders" ("id","name","phone","description","created_at","updated_at","user_id") VALUES (2, 'May', '#299', 'Burger * 2
+Coffee * 1', '2016-02-11 07:31:45.353419', '2016-02-11 07:31:45.353419', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "aorders" ("id","name","phone","description","created_at","updated_at","user_id") VALUES (3, 'Bob', '#750', 'Black Tea * 1', '2016-02-12 13:20:54.294265', '2016-02-12 13:20:54.294265', NULL)
+  [1m[36m (1.1ms)[0m  [1mDROP TABLE "orders"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "orders" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "phone" varchar, "description" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "aorders"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "orders" ("id","name","phone","description","created_at","updated_at") VALUES (1, 'Anndo', '#250', 'Burger * 1
+', '2016-02-11 07:30:21.032244', '2016-02-11 07:30:21.032244')
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "orders" ("id","name","phone","description","created_at","updated_at") VALUES (2, 'May', '#299', 'Burger * 2
+Coffee * 1', '2016-02-11 07:31:45.353419', '2016-02-11 07:31:45.353419')[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "orders" ("id","name","phone","description","created_at","updated_at") VALUES (3, 'Bob', '#750', 'Black Tea * 1', '2016-02-12 13:20:54.294265', '2016-02-12 13:20:54.294265')
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "aorders"[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = ?  [["version", "20160212132417"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToOrdersTable (20160212132417)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "orders" ADD "user_id" integer[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160212132417"]]
+  [1m[36m (2.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 2
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[36mOrder Load (1.7ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  ORDER BY "orders"."id" ASC LIMIT 1
+  [1m[36mOrder Load (2.5ms)[0m  [1mSELECT  "orders".* FROM "orders"  ORDER BY "orders"."id" ASC LIMIT 1 OFFSET 2[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "orders" SET "user_id" = ?, "updated_at" = ? WHERE "orders"."id" = ?[0m  [["user_id", 1], ["updated_at", "2016-02-12 14:21:00.105745"], ["id", 3]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT  "orders".* FROM "orders"  ORDER BY "orders"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT  "orders".* FROM "orders"  ORDER BY "orders"."id" ASC LIMIT 1 OFFSET 2
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 2[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 2[0m
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1 OFFSET 2[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+  [1m[36mOrder Load (1.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mOrder Load (0.3ms)[0m  SELECT "orders".* FROM "orders"
+  [1m[36mOrder Load (0.4ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mUser Load (3.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:34:21 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.7ms)
+
+ActionView::Template::Error (undefined method `position' for #<Order:0x007fbb4d2c7c60>):
+    16:       <tr>
+    17:         <td><%= user.name %></td>
+    18:         <td><%= user.phone %></td>
+    19:         <td><%= user.position %></td>
+    20:         <td><%= user.age %></td>
+    21:       </tr>
+    22:     <% end %>
+  app/views/users/index.html.erb:19:in `block in _app_views_users_index_html_erb___1235621752421372500_70221215677740'
+  app/views/users/index.html.erb:15:in `_app_views_users_index_html_erb___1235621752421372500_70221215677740'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (65.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (137.9ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:36:38 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `position' for #<Order:0x007fbb4aeb78c0>):
+    18:       <tr>
+    19:         <td><%= user.name %></td>
+    20:         <td><%= user.phone %></td>
+    21:         <td><%= user.position %></td>
+    22:         <td><%= user.age %></td>
+    23:       </tr>
+    24:     <% end %>
+  app/views/users/index.html.erb:21:in `block in _app_views_users_index_html_erb___1235621752421372500_70221196340900'
+  app/views/users/index.html.erb:17:in `_app_views_users_index_html_erb___1235621752421372500_70221196340900'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:37:30 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |orders| %>
+    4: <% end %>
+    5: 
+    6: <table>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221251511400'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.8ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:38:16 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |orders| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221199918300'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:38:18 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |orders| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221199918300'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.3ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:38:39 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221247386760'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:38:40 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221247386760'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.5ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:39:06 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221200251880'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.8ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:39:08 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221200251880'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.8ms)
+
+
+Started GET "/" for ::1 at 2016-02-12 22:40:15 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-12 22:40:22 +0800
+Processing by OrdersController#index as HTML
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders"[0m
+  Rendered orders/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 224ms (Views: 223.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:40:27 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221200251880'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.6ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:42:38 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: <%= order.name %>
+    5: <%= order.phone %>
+    6: <%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb___1235621752421372500_70221200251880'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (42.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 22:43:21 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 22:43:21 +0800
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:08:09 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb___1235621752421372500_70221273225540'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.9ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:08:14 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb___1235621752421372500_70221273225540'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:08:24 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb___1235621752421372500_70221251648960'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (100.1ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:08:25 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb___1235621752421372500_70221251648960'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:08:48 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb___1235621752421372500_70221275298260'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:09:00 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.2ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    18:   </thead>
+    19: 
+    20:   <tbody>
+    21:     <% @users.each do |user| %>
+    22:       <tr>
+    23:         <td><%= user.name %></td>
+    24:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:21:in `_app_views_users_index_html_erb__1087399179829827471_70118398426640'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (61.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.1ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:10:15 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    19:   </thead>
+    20: 
+    21:   <tbody>
+    22:     <% @users.each do |user| %>
+    23:       <tr>
+    24:         <td><%= user.name %></td>
+    25:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:22:in `_app_views_users_index_html_erb__1087399179829827471_70118397195060'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (106.2ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:10:17 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.1ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    19:   </thead>
+    20: 
+    21:   <tbody>
+    22:     <% @users.each do |user| %>
+    23:       <tr>
+    24:         <td><%= user.name %></td>
+    25:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:22:in `_app_views_users_index_html_erb__1087399179829827471_70118397195060'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.6ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:10:50 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.6ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1> Users </h1>
+    2: 
+    3: <% @orders.each do |order| %>
+    4: 	<%= order.name %>
+    5: 	<%= order.phone %>
+    6: 	<%= order.description %>
+  app/views/users/index.html.erb:3:in `_app_views_users_index_html_erb__1087399179829827471_70118401898500'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (120.8ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:12:36 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    19:   </thead>
+    20: 
+    21:   <tbody>
+    22:     <% @users.each do |user| %>
+    23:       <tr>
+    24:         <td><%= user.name %></td>
+    25:         <td><%= user.phone %></td>
+  app/views/users/index.html.erb:22:in `_app_views_users_index_html_erb__1087399179829827471_70118401898500'
+
+
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (68.1ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.7ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.8ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:13:34 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 216ms (Views: 214.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/scaffolds.self-9666717e4e8b5072425a80857cb1246e3aa0abbba2815dac863b6cb338106c62.css?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-12 23:13:34 +0800
+
+
+Started GET "/" for ::1 at 2016-02-12 23:31:54 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 25ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-12 23:32:03 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.3ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 199ms (Views: 194.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users" for ::1 at 2016-02-12 23:32:10 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mOrder Load (0.2ms)[0m  SELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 49ms (Views: 26.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-02-14 16:24:23 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Anndo/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2016-02-14 16:24:27 +0800
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mOrder Load (0.3ms)[0m  [1mSELECT "orders".* FROM "orders" WHERE "orders"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered users/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 223ms (Views: 196.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/orders" for ::1 at 2016-02-14 16:24:36 +0800
+Processing by OrdersController#index as HTML
+  [1m[35mOrder Load (0.1ms)[0m  SELECT "orders".* FROM "orders"
+  Rendered orders/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.1ms)
